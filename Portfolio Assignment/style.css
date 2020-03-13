@@ -1,0 +1,117 @@
+*{
+    outline: 1px dotted black;
+    font-family: sans-serif;
+}
+body{
+    width: 885px;
+    margin: 0px auto;
+}
+.header{
+    padding: 10px;
+    background-color: #E1E1E1;
+}
+.header *{
+    display: inline-block;
+    margin: 5px;
+}
+#name{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    width: 410px;
+}
+.mainContainer{
+    background-image: radial-gradient(#A25C8E, #371630);
+}
+.aboutSection{
+    padding: 10px;
+}
+.aboutSection #me{
+    vertical-align: top;
+}
+.aboutSection #me{
+    display: inline-block;
+}
+.aboutSection img{
+    width: 350px;
+    border: 5px solid gray;
+}
+.aboutSection #aboutText{
+    display: inline-block;
+    width: 500px;
+    height: 214px;
+    background-image: linear-gradient(white, #EBD0EE);
+}
+#desc{
+    background-image: linear-gradient(white, #EBD0EE);
+}
+.tinyBoxHeader{
+    background-image: linear-gradient(#D6D6D6, #717171, #D6D6D6);
+    padding: 5px;
+}
+.tinyBoxHeader h2{
+    margin: 5px 0px;
+    color: snow;
+}
+#projects{
+    padding: 0px 33px;
+}
+#projects p{
+    height: 200px;
+}
+#project1, #project2, #project3{
+    display: inline-block;
+    width: 250px;
+    vertical-align: top;
+    margin: 10px;
+    background-image: linear-gradient(white, #EBD0EE);
+}
+
+.imgHead{
+    width: 250px;
+}
+.techImgs img{
+    width: 40px;
+    display: inline-block;
+}
+.links{
+    text-align: center;
+    padding: 15px;
+}
+.links a{
+    text-decoration: none;
+    color: snow;
+    background-color: green;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 2px grey;
+}
+.footer{
+    background-color: #E1E1E1;
+}
+.footer *{
+    background-color: #E1E1E1;
+}
+.footer ul{
+    padding: 5px;
+}
+.footer p{
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+}
+.socialMedia{
+    width: 380px;
+    margin: 0px auto;
+}
+.footer ul{
+    margin: 0px;
+    padding: 5px;
+}
+.footer ul li{
+    list-style-type: none;
+    display: inline-block;
+    font-style: italic;
+}
+.footer ul li img{
+    width: 20px;
+}
+
